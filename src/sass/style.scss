@@ -1,9 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
 
+body {
+    background: rgb(223, 223, 223);
+}
+
 h1 {
+    font-size: 50px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .card {
@@ -11,11 +16,16 @@ h1 {
     flex-wrap: wrap;
     text-align: center;
     margin: 20px auto;
-    min-height: 220px;
+    min-height: 250px;
 }
 
-.card-header {
+.card-header a {
     padding: 15px;
+    color: black;
+}
+
+.card-header a:hover {
+    color: #5f5f5f;
 }
 
 .occupation-heading {
@@ -62,12 +72,13 @@ button:hover {
 }
 
 .loading-container {
+    background-color: #fff;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 20px;
     border: 1px solid grey;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
 }
 
 span {
