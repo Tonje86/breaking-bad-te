@@ -1,0 +1,80 @@
+@import "~bootstrap/scss/bootstrap";
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 220px;
+}
+
+.card-header {
+    padding: 15px;
+}
+
+.occupation-heading {
+    font-weight: 600;
+}
+
+.card-footer {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact-form,
+.login-form {
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+.form-label {
+    margin-top: 20px;
+}
+
+button {
+    all: unset;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn {
+    margin-top: 20px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: #bbbbbb;
+}
+
+.back-link {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.loading-container {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+span {
+    font-weight: 600;
+    color: red;
+}
+
+li {
+    list-style-type: none;
+}
